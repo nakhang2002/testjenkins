@@ -20,7 +20,7 @@ pipeline {
         //sh "poetry run pytest"
       }
     }
-
+/*
     stage("build") {
       agent { node {label 'master'}}
       environment {
@@ -42,7 +42,7 @@ pipeline {
       }
     }
   }
-
+*/
   post {
     success {
       echo "SUCCESSFUL"
